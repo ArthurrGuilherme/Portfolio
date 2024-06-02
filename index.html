@@ -232,13 +232,18 @@
         <!--Contato-->
         <section class="ContainerContato">
             <div class="container">
-                <form class="form-contato">
+                <form class="form-contato" 
+                    action="https://sheetdb.io/api/v1/wcf33mhkrdlh6" 
+                    method="post" 
+                    name="FormContato"
+                    id="sheetdb-form">
+                    
                     <h2>Entre em contato</h2>
-                    <input placeholder="Digite seu nome completo:" type="text" id="nome" name="nome" required>
+                    <input placeholder="Digite seu nome completo:" type="text" id="nome" name="data[nome]" required>
         
-                    <input placeholder="(xx) x xxxx-xxxx" type="tel" id="telefone" name="telefone" required maxlength="11">
+                    <input placeholder="(xx) x xxxx-xxxx" type="tel" id="telefone" name="data[telefone]" required maxlength="11">
         
-                    <input placeholder="Digite seu E-mail" type="email" id="email" name="email" required>
+                    <input placeholder="Digite seu E-mail" type="email" id="email" name="data[email]" required>
         
                     <button type="submit">Enviar</button>
                 </form>
@@ -247,9 +252,19 @@
         <!--Contato-->
     </main>
 </body>
+<script>
+    
+  </script>
+  
+</script>
+    function submitForm(form) {
+       
+    }
+</script>
     <!--Js-->
         <script src="./js/scrollreveal.js"></script>
         <script src="./js/header.js"></script>
         <script src="./js/formulario.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!--Js-->
 </html>
