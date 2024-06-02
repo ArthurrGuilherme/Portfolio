@@ -103,5 +103,10 @@ ScrollReveal().reveal('.ImgProjetos',
         delay: 550, reset: true, distance: '150px' , origin: 'top',
     }
 );
+ScrollReveal().reveal('.container', 
+    {    
+        delay: 550, reset: true, distance: '150px' , origin: 'left',
+    }
+);
 
 

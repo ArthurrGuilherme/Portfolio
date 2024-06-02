@@ -18,6 +18,13 @@ function scrollto(element) {
     document.querySelector(element).scrollIntoView({ behavior: "smooth" });
 }
 
+document.querySelector("#Inicio").addEventListener("click", function (event) {
+    event.preventDefault();
+
+    scrollto(".Container")
+
+    console.log("go to up")
+})
 document.querySelector("#Cronologia").addEventListener("click", function (event) {
     event.preventDefault();
 
@@ -28,14 +35,21 @@ document.querySelector("#Cronologia").addEventListener("click", function (event)
 document.querySelector("#Curriculo").addEventListener("click", function (event) {
     event.preventDefault();
 
-    scrollto(".ContainerCurriculo")
+    scrollto(".containercurriculo")
 
     console.log("go to up")
 })
 document.querySelector("#Projetos").addEventListener("click", function (event) {
     event.preventDefault();
 
-    scrollto(".containerTerceiro")
+    scrollto(".containerProjetos")
+
+    console.log("go to up")
+})
+document.querySelector("#Contato").addEventListener("click", function (event) {
+    event.preventDefault();
+
+    scrollto(".ContainerContato")
 
     console.log("go to up")
 })
