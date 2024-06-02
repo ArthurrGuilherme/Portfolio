@@ -56,4 +56,22 @@
     .form-contato {
         width: 90%;
     }
+    .main-container {
+        position: relative;
+        width: 360px;
+    }
+    .left {
+        left: 0px;
+    }
+    .text-wrapper {
+        padding: 0px;
+        width: 52%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media (max-width: 375px) {
+    .ImgProjetos {
+        width: 22rem;
+    }
 }
