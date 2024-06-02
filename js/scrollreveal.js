@@ -73,3 +73,35 @@ ScrollReveal().reveal('.btncurriculo',
     }
 );
 
+
+ScrollReveal().reveal('.TituloProjeto', 
+    {    
+        delay: 550, reset: true, distance: '150px' , origin: 'bottom',
+    }
+);
+
+ScrollReveal().reveal('.subTituloProjeto', 
+    {    
+        delay: 650, reset: true, distance: '150px' , origin: 'bottom',
+    }
+);
+
+ScrollReveal().reveal('.TextoApresentassaoProjeto', 
+    {    
+        delay: 700, reset: true, distance: '150px' , origin: 'bottom',
+    }
+);
+
+ScrollReveal().reveal('.projetosbtn', 
+    {    
+        delay: 750, reset: true, distance: '150px' , origin: 'bottom',
+    }
+);
+
+ScrollReveal().reveal('.ImgProjetos', 
+    {    
+        delay: 550, reset: true, distance: '150px' , origin: 'top',
+    }
+);
+
+
